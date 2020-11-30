@@ -12,18 +12,20 @@ main(){
 
 	float nota1, nota2, media;
 
-	printf("Digite a 1a. nota.: \n");
+	printf("\nDigite a 1a. nota.: ");
 	scanf("%f",&nota1);
 
-	printf("Digite a 2a. nota.: \n");
+	printf("\nDigite a 2a. nota.: ");
 	scanf("%f",&nota2);
 
 	media = (nota1+nota2)/2;
+	printf("\n===========================================================");
 
 	if(media > 6){
-		printf("A média foi %2.f e o aluno está APROVADO!!!",media);
+		printf("\n1a. Nota: %.2f \n \n2a. Nota: %.2f \n\nA média foi %.2f e o aluno está APROVADO!!!\n",nota1,nota2,media);
 		}else {
-			printf("A média foi %2.f e o aluno está REPROVADO!!!",media);
+			printf("\n1a. Nota: %.2f \n \n2a. Nota: %.2f \n\nA média foi %.2f e o aluno está REPROVADO!!!\n",nota1,nota2,media);
 		}
+	printf("\n===========================================================");
 	}
 
